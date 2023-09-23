@@ -1,0 +1,27 @@
+.root {
+    -fx-font-size: 20px;
+    -fx-font-family: sans-serif;
+}
+
+.button {
+    -fx-border-radius: 20pt;
+    -fx-background-radius: 20pt;
+}
+
+#header {
+    -fx-font-size: 40px;
+    -fx-font-weight: 500;
+    -fx-text-fill: white;
+}
+
+#anchor {
+    -fx-background-color: blue;
+}
+
+#label {
+    -fx-text-fill: white;
+}
+
+#errLabel {
+    -fx-text-fill: red;
+}
