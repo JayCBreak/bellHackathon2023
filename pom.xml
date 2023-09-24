@@ -36,7 +36,18 @@
       <artifactId>junit-jupiter-engine</artifactId>
       <version>${junit.version}</version>
       <scope>test</scope>
-    </dependency>  </dependencies>
+    </dependency>
+      <dependency>
+          <groupId>org.java-sql-generator</groupId>
+          <artifactId>java-sql-generator</artifactId>
+          <version>0.2</version>
+      </dependency>
+    <dependency>
+      <groupId>org.java-sql-generator</groupId>
+      <artifactId>org.java-sql-generator</artifactId>
+      <version>0.3.2</version>
+    </dependency>
+  </dependencies>
 
   <build>
     <plugins>

@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Oleo+Script:wght@700&family=Quicksand:wght@400;600&display=swap');
+
 .root {
+    -fx-min-weight: 100%;
+    -fx-min-height: 100%;
     -fx-font-size: 20px;
-    -fx-font-family: sans-serif;
+    -fx-font-family: 'Quicksand', sans-serif;
 }
 
 .button {
@@ -8,14 +12,32 @@
     -fx-background-radius: 20pt;
 }
 
+#header-bar {
+    -fx-min-weight: 100%;
+    -fx-background-color: #F4F4F4;
+
+}
+
+#sidebar{
+    -fx-min-height: 100%;
+    -fx-min-width: 20%;
+    -fx-background-color: #2F4858;
+}
+
+
 #header {
     -fx-font-size: 40px;
-    -fx-font-weight: 500;
     -fx-text-fill: white;
+    -fx-font-family: 'Oleo Script', cursive;
 }
 
 #anchor {
-    -fx-background-color: blue;
+    -fx-background-color: #55555;
+}
+
+#container {
+    -fx-min-width: 80%;
+    -fx-background-color: #4d6679;
 }
 
 #label {

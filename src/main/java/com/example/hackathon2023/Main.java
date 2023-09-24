@@ -13,6 +13,7 @@ public class Main extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("create-user-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Super Duper Secure Login");
+        stage.setMaximized(true);
         stage.setScene(scene);
         stage.show();
     }
