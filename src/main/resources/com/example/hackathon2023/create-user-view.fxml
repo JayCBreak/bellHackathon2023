@@ -13,9 +13,9 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane id="anchor" prefHeight="800.0" prefWidth="1141.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hackathon2023.CreateUserViewController">
+<AnchorPane id="anchor" prefHeight="912.0" prefWidth="1148.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hackathon2023.CreateUserViewController">
    <children>
-      <VBox id="sidebar" alignment="CENTER" layoutY="102.0" prefHeight="709.0" prefWidth="261.0" stylesheets="@styles.css">
+      <VBox id="sidebar" alignment="CENTER" layoutY="102.0" prefWidth="261.0" stylesheets="@styles.css">
          <children>
             <ImageView fitHeight="150.0" fitWidth="262.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -65,7 +65,7 @@
             <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
          </padding>
       </VBox>
-      <VBox id="container" alignment="TOP_CENTER" layoutX="261.0" layoutY="105.0" prefHeight="702.0" prefWidth="889.0" spacing="30.0" stylesheets="@styles.css" AnchorPane.bottomAnchor="-7.0" AnchorPane.leftAnchor="261.0" AnchorPane.rightAnchor="-2.0" AnchorPane.topAnchor="105.0">
+      <VBox id="container" alignment="TOP_CENTER" layoutX="261.0" layoutY="105.0" prefWidth="889.0" spacing="30.0" stylesheets="@styles.css" AnchorPane.bottomAnchor="-7.0" AnchorPane.leftAnchor="261.0" AnchorPane.rightAnchor="-2.0" AnchorPane.topAnchor="105.0">
          <children>
             <Label id="header" style="-fx-text-fill: white;" stylesheets="@styles.css" text="Create User" />
             <GridPane hgap="20.0" maxWidth="-Infinity" prefWidth="500.0" vgap="30.0">
