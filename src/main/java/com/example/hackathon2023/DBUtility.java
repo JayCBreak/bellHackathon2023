@@ -10,7 +10,7 @@ public class DBUtility {
      * jdbc:mysql -> the database driver
      * 127.0.0.1 -> IP address of the server
      * 3306 -> port of the database server
-     * COMP1011 -> name of the database
+     * real_database -> name of the database
      */
     private static String connectURLDecoy = "jdbc:mysql://127.0.0.1:3306/decoy_database";
     private static String connectURLReal = "jdbc:mysql://127.0.0.1:3306/real_database";
